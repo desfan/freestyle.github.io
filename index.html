@@ -21,21 +21,22 @@
     <![endif]-->
     </head>
     <body>
+
+        <!-- ШАПКА САЙТА -->
+
         <section id="main">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">                        
                         <div class="navbar-header">
-                            <button class="navbar-toggle collapsed menu_btn" data-toggle="collapse" data-target="#top-menu">
-                                menu
-                            </button>
-                            <div class="collapse navbar-collapse navbar-left" id="top_menu">
-                                <ul class="nav navbar-nav navbar-left">
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Gallery</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                </ul>
-                            </div>
+                            <button class="navbar-toggle collapsed menu_btn" data-toggle="collapse" data-target="#top-menu"><i class="fa fa-bars" aria-hidden="true"></i></button>
+                                <div class="collapse navbar-collapse navbar-left" id="top_menu">
+                                    <ul class="nav navbar-nav navbar-left">
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">Gallery</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                    </ul>
+                                </div>
                         </div>
                     </div>
                             
@@ -43,13 +44,11 @@
                         <img src="img/camera.png" alt="">
                     </div>
 
-                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        </ul>
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-right">
+                        <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                     </div>                            
                 </div>
                 <div class="row">
@@ -65,6 +64,8 @@
                 </div>
             </div>
         </section>
+
+        <!-- СЕКЦИЯ "RECENT WORKS" -->
 
         <section id="recent">
             <div class="container">
@@ -94,6 +95,8 @@
             </div>
         </section>
 
+        <!-- СЕКЦИЯ "RECENT WORKS" -->
+
         <section id="collections">
             <div id="wrap" class="container">
                 <div class="row">
@@ -106,13 +109,8 @@
                         <p>
                             They were six beautiful children but the youngest was the prettiest of them all. Her skin was as clear and delicate as a rose-leaf and her eyes as blue as the deepest sea. But like all the others she had no feet and her body ended in a fish’s tail.
                         </p>
-
                         <button id="btn_header" type="button" class="btn">More</button>
-
-                    </div>
-                    
-                        
-                                         
+                    </div>                                         
                 </div>
             </div>
 
@@ -122,12 +120,9 @@
                         <h2>Mother Earth</h2>
                         <p>
                             And racism will be dead, for variety will then be the great fact of Humanity, and not uniformity. Mother Earth will finally have given birth not to merely a Terrestrian, but to a Galactic Empire
-                        </p>
-                        
-                        <button id="btn_header" type="button" class="btn">More</button>
-                         
-                    </div>
-                    
+                        </p>                        
+                        <button id="btn_header" type="button" class="btn">More</button>                         
+                    </div>                    
                     <div class="col-md-6">
                         <img src="img/img6.png">
                     </div>                    
@@ -139,100 +134,57 @@
                     <div class="col-md-6">
                         <img src="img/img7.png">
                     </div>
-
                     <div class="col-md-6">
                         <h2>Portraits</h2>
                         <p>
                             'Yes, we went to school in the sea, though you mayn't believe it—' 'I never said I didn't!' interrupted Alice. 'You did,' said the Mock Turtle. 'Hold your tongue!' added the Gryphon, before Alice could speak again.
                         </p>
-
                         <button id="btn_header" type="button" class="btn">More</button>
-
                     </div>                                  
                 </div>
             </div>
-
         </section>
+
+        <!-- СЕКЦИЯ "CONTACTS" -->
 
         <section id="contact">
             <div class="container">
                 <div class="row">
                     <h2>Get in touch</h2>
-
-                <div class="col-sm-12">
-                    <!-- <div class="row"> -->
-                      <div class="col-sm-4 col-sm-offset-4">
-
-                        <form method="post" data-form-title="CONTACT">
-                          <input type="hidden" data-form-email="true">
-                          <div class="form-group">
-                            <input type="text" class="form-control" name="name" required="" placeholder="Your Name" data-form-field="Name">
-                          </div>
-                          <div class="form-group">
-                            <input type="email" class="form-control" name="email" required="" placeholder="Email" data-form-field="Email">
-                          </div>
-                          <div class="form-group">
-                            <textarea class="form-control" name="message" placeholder="Message" rows="7" data-form-field="Message"></textarea>
-                          </div>
-                          <div>
-                            <button type="submit" class="send-btn">Send</button>
-                          </div>
-                        </form>
-                        <h5>Follow me on:</h5>
-                      </div>
-                    </div>
+                        <div class="col-sm-12">
+                            <div class="col-sm-4 col-sm-offset-4">
+                                <form method="post" data-form-title="CONTACT">
+                                    <input type="hidden" data-form-email="true">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="name" required="" placeholder="Your Name" data-form-field="Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" name="email" required="" placeholder="Email" data-form-field="Email">
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea class="form-control" name="message" placeholder="Message" rows="7" data-form-field="Message"></textarea>
+                                        </div>
+                                        <button type="submit" class="send-btn">Send</button>
+                                </form>                        
+                            </div>
+                        </div>
                 </div>
+            </div>
 
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="col-sm-4 col-sm-offset-4 text-center">
+                            <h5>Follow me on:</h5>
+                            <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-
-
-
-
-
-
-
-
-
-
-
-        <!-- <div class="container" id="contact">
-
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="row">
-                      <div class="col-sm-4 col-sm-offset-4">
-                        <div>
-                          <h4>Get in touch</h4>
-                        </div>
-                        <form method="post" data-form-title="CONTACT">
-                          <input type="hidden" data-form-email="true">
-                          <div class="form-group">
-                            <input type="text" class="form-control" name="name" required="" placeholder="Your Name" data-form-field="Name">
-                          </div>
-                          <div class="form-group">
-                            <input type="email" class="form-control" name="email" required="" placeholder="Email" data-form-field="Email">
-                          </div>
-                          <div class="form-group">
-                            <textarea class="form-control" name="message" placeholder="Message" rows="7" data-form-field="Message"></textarea>
-                          </div>
-                          <div>
-                            <button type="submit" class="send-btn">Send</button>
-                          </div>
-                        </form>
-                        <h5>Follow me on:</h5>
-                      </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-              
-            </div> -->
-        
-
-   
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
