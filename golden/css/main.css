@@ -162,6 +162,10 @@ ul, li {
 
 /*About Screen*/
 
+.about h5 {
+	margin-bottom: 80px;
+}
+
 .about__text-right {
 	text-align: right;
 	width: 310px;
@@ -174,8 +178,8 @@ ul, li {
 
 .wrap {
 	width: 310px;
-	padding-top: 25px;
-	margin-top: 80px;
+/*	padding-top: 25px;
+	margin-top: 80px;*/
 }
 
 .wrap h4 {
@@ -220,12 +224,13 @@ ul, li {
 	margin: 0 10px;
 }
 
-.fa-twitter {
+.fa-twitter, .fa-facebook-f, .fa-pinterest-p, .fa-google-plus-g {
 	border: 3px solid #888;
 	border-radius: 100%;
 	width: 40px;
 	height: 40px;
 	margin: 0 10px;
+	transition: all 0.3s ease;
 }
 
 .fa-twitter:hover {
@@ -234,40 +239,16 @@ ul, li {
 	color: #fff;
 }
 
-.fa-facebook-f {
-	border: 3px solid #888;
-	border-radius: 100%;
-	width: 40px;
-	height: 40px;
-	margin: 0 10px;
-}
-
 .fa-facebook-f:hover {
 	background-color: #3b5998;
 	border-color: #3b5998;
 	color: #fff;
 }
 
-.fa-pinterest-p {
-	border: 3px solid #888;
-	border-radius: 100%;
-	width: 40px;
-	height: 40px;
-	margin: 0 10px;
-}
-
 .fa-pinterest-p:hover {
 	background-color: #cb2028;
 	border-color: #cb2028;
 	color: #fff;
-}
-
-.fa-google-plus-g {
-	border: 3px solid #888;
-	border-radius: 100%;
-	width: 40px;
-	height: 40px;
-	margin: 0 10px;
 }
 
 .fa-google-plus-g:hover {
