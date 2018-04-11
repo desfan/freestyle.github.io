@@ -105,6 +105,10 @@ ul, li {
 	color: #fff
 }
 
+.menu__item a:active, .menu__item a:hover {
+	color: #fed136
+}
+
 .yellow {
 	background-color: #fed136;
 	color: #fff;
