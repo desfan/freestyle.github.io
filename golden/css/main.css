@@ -105,7 +105,7 @@ ul, li {
 	color: #fff
 }
 
-.menu__item a:active, .menu__item a:hover {
+.menu__item a:hover {
 	color: #fed136
 }
 
@@ -382,10 +382,40 @@ footer .fa-twitter, footer .fa-facebook-f, footer .fa-pinterest-p, footer .fa-go
 		font-size: 30px;
 		margin-top: 150px;
 	}
+
 }
 
 
 @media screen and (max-width: 576px) {
+
+	section {
+		padding: 40px 0;
+	}
+
+	h5 {
+	font-family: 'DroidSerif-Italic';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 16px;
+	}
+
+	.about h5 {
+		margin-bottom: 0px;
+	}
+
+	#about .wrap {
+		margin-top: 30px;
+		text-align: center;
+	}
+
+	.line {
+		display: none;
+	}
+
+	.about__text-right, .about__text-left {
+		text-align: center;
+		width: 100%;
+	}
 
 	.logo {
 		margin: 0 auto;
@@ -413,6 +443,10 @@ footer .fa-twitter, footer .fa-facebook-f, footer .fa-pinterest-p, footer .fa-go
 		margin-top: 90px;
 	}
 
+	h3 {
+		font-size: 30px;
+	}
+
 	.header {
 		padding-top: 35px;
 		height: 100vh;
@@ -425,5 +459,40 @@ footer .fa-twitter, footer .fa-facebook-f, footer .fa-pinterest-p, footer .fa-go
 	.yellow {
 		width: 98%;
 	}
+
+	#card, .thumbnail {
+	margin-top: 50px;
+	}
+
+	.cms__content img {
+	margin: 10px;
+	width: 40%;
 }
 
+	.wrap {
+
+	}
+
+}
+
+@media screen and (min-width: 576px) {
+	.menu {
+		justify-content: end;
+		margin-top: 0;
+		}
+
+	#about .wrap {
+		margin-top: 30px;
+		text-align: center;
+	}
+
+	.line {
+		display: none;
+	}
+
+	.about__text-right, .about__text-left {
+		text-align: center;
+		width: 100%;
+	}
+
+}
