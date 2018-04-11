@@ -270,8 +270,12 @@ form {
 }
 
 textarea {
-	max-height: 160px;
+	height: 211px;
 	resize: none;
+}
+
+input {
+	height: 55px;
 }
 
 .form-group {
@@ -285,7 +289,6 @@ textarea {
 .contact {
 	background: url('../img/Map.png') no-repeat right bottom;
 	background-color: #222;
-	height: 680px;
 }
 
 /*Footer*/
