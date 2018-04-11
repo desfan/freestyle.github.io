@@ -269,16 +269,23 @@ form {
 	margin-top: 80px;
 }
 
-textarea {
+textarea, input {
+	font-family: Montserrat, sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
 	height: 211px;
 	resize: none;
 }
 
 input {
 	height: 55px;
+
 }
 
 .form-group {
+
+
 	margin-bottom: 23px;
 }
 
