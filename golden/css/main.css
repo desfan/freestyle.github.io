@@ -206,6 +206,7 @@ ul, li {
 	padding: 0;
 	color: #888;
 	line-height: 36px;
+	text-align: center;
 }
 
 .social li {
@@ -262,6 +263,22 @@ ul, li {
 	color: #fff;
 }
 
+.fa-google-plus-g {
+	border: 3px solid #888;
+	border-radius: 100%;
+	width: 40px;
+	height: 40px;
+	margin: 0 10px;
+}
+
+.fa-google-plus-g:hover {
+	background-color: #da2713;
+	border-color: #cb2028;
+	color: #fff;
+}
+
+
+
 /*CMS Screen*/
 
 .cms__content img {
@@ -303,7 +320,7 @@ footer h6 {
 	color: #737373;
 }
 
-footer .social__icon {
+footer .social {
 	width: 40px;
 	height: 40px;
 	background: #222;
@@ -314,9 +331,13 @@ footer .social__icon {
 	margin: 0 10px;
 }
 
-footer .social__icon a {
+footer .social i {
 	text-decoration: none;
 	color: #fff;
+}
+
+footer .fa-twitter, footer .fa-facebook-f, footer .fa-pinterest-p, footer .fa-google-plus-g {
+	border: 3px solid #222;
 }
 
 
