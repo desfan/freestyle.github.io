@@ -184,12 +184,6 @@ ul, li {
 	width: 310px;
 }
 
-/*.wrap {
-	width: 310px;
-	padding-top: 25px;
-	margin-top: 80px;
-}*/
-
 .wrap h4 {
 	margin: 0 0 10px 0;
 }
@@ -293,12 +287,9 @@ textarea, input {
 
 input {
 	height: 55px;
-
 }
 
 .form-group {
-
-
 	margin-bottom: 23px;
 }
 
@@ -391,6 +382,10 @@ footer .fa-twitter, footer .fa-facebook-f, footer .fa-pinterest-p, footer .fa-go
 		width: 90%;
 	}
 
+	.empty {
+		display: none;
+	}
+
 }
 
 
@@ -457,8 +452,16 @@ footer .fa-twitter, footer .fa-facebook-f, footer .fa-pinterest-p, footer .fa-go
 		margin-bottom: 0px;
 	}
 
+	.about h4 {
+		margin: 25px 0 10px 0;
+	}
+
+	.text {
+		height: auto;
+	}
+
 	#about .wrap {
-		margin-top: 30px;
+		margin-top: 0;
 		text-align: center;
 	}
 
@@ -526,7 +529,5 @@ footer .fa-twitter, footer .fa-facebook-f, footer .fa-pinterest-p, footer .fa-go
 		width: 35%;
 		margin: 10px 0;
 	}
-
-
 
 }
