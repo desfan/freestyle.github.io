@@ -81,6 +81,7 @@ ul, li {
 
 .header {
 	background: url(../img/bg.jpg) no-repeat center top / cover;
+	background-color: #494543;
 	height: 700px;
 	color: #fff;
 	padding-top: 45px;
