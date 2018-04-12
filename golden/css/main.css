@@ -90,7 +90,7 @@ ul, li {
 	margin-top: 10px;
 	line-height: 0.5em;
 	display: flex;
-	justify-content: end;
+	justify-content: flex-end;
 }
 
 .menu__item {
@@ -155,7 +155,7 @@ ul, li {
 	background: #f7f7f7;
 }
 
-#card {
+#portfolio .thumbnail {
 	width: 291px;
 	height: 405px;
 	background-color: #fff;
@@ -164,7 +164,7 @@ ul, li {
 	box-shadow: 0 2px 4px rgba(0, 0, 0, .2); 
 }
 
-#card a {
+#portfolio .thumbnail a {
 	text-decoration: none;
 }
 
@@ -429,7 +429,7 @@ footer .fa-twitter, footer .fa-facebook-f, footer .fa-pinterest-p, footer .fa-go
 		width: 55%;
 		margin: 10px auto;
 		text-align: right;
-		justify-content: end;
+		justify-content: flex-end;
 	}
 
 }
@@ -517,7 +517,7 @@ footer .fa-twitter, footer .fa-facebook-f, footer .fa-pinterest-p, footer .fa-go
 		width: 98%;
 	}
 
-	#card, .thumbnail {
+	.thumbnail {
 	margin-top: 50px;
 	}
 
