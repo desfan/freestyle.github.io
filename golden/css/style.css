@@ -88,7 +88,7 @@ ul, li {
   background: black;
   z-index: 2;
   transition: 1s all;
-  opacity: 0.80;
+  opacity: 0.95;
   visibility: visible;
 }
 
@@ -394,7 +394,7 @@ footer .fa-twitter, footer .fa-facebook-f, footer .fa-pinterest-p, footer .fa-go
     content: '';
     width: 3px;
     top: 0;
-    left: 49%;
+    left: 50%;
     bottom: 0;
     background-color: #f1f1f1;
   }
@@ -621,7 +621,7 @@ footer .fa-twitter, footer .fa-facebook-f, footer .fa-pinterest-p, footer .fa-go
   display: flex;
   border: 5px solid #f1f1f1;
   border-radius: 50%;
-  margin: 0 auto;
+  margin: 15px auto;
 }
 
 @media screen and (min-width: 576px) {
@@ -632,7 +632,6 @@ footer .fa-twitter, footer .fa-facebook-f, footer .fa-pinterest-p, footer .fa-go
   .about__item__description {
     text-align: right;
     padding: 0 45px 0 0;
-    width: 450px;
   }
 
   .about__item__description .title {
