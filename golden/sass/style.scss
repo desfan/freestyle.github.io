@@ -1,5 +1,4 @@
 /*Specification*/
-
 @font-face {
   	font-family: 'DroidSerif-Italic';
   	src: url('DroidSerif-Italic.eot') format('embedded-opentype');
@@ -26,7 +25,7 @@ section {
 }
 
 h1, h2, h3, h4 {
-	font-family: Montserrat, sans-serif;
+	font-family: 'DroidSerif-Italic';
 	font-weight: 700;
 	font-size: 75px;
 	color: #fff;
@@ -531,4 +530,90 @@ footer .fa-twitter, footer .fa-facebook-f, footer .fa-pinterest-p, footer .fa-go
 		margin: 10px 0;
 	}
 
+}
+
+
+.about {
+	position: relative;
+
+	&:before {
+		position: absolute;
+		content: '';
+		width: 3px;
+		top: 0;
+		left: 50%;
+		bottom: 0;
+		margin-left: -1px;
+		background-color: #f1f1f1;
+	}
+
+	.title {
+		margin: 0 0 17px 0;
+		font-family: 'Montserrat';
+		font-weight: bold;
+		font-style: normal;
+		letter-spacing: -0.5px;
+		color: #222222;
+
+		time {
+			display: block;
+			text-transform: uppercase;
+		}
+	}
+
+	.content {
+		margin: 0;
+		font-size: 14px;
+		letter-spacing: -0.4px;
+		color: #777777;
+	}
+
+	&__item {
+		display: flex;
+
+		&__description {
+			text-align: right;
+			padding: 0 45px 0 100px;
+
+			.title {
+				margin-top: 5px;
+				text-align: right;
+			}
+		}
+
+		img {
+			flex: 0 0 168px;
+			width: 168px;
+			height: 168px;
+			border: 5px solid #f1f1f1;
+			border-radius: 50%;
+		}
+	}
+
+	.row {
+		&:nth-child(even) {
+			.about__item {
+				margin-left: auto;
+
+				&__description {
+					text-align: left;
+					padding: 0 100px 0 45px;
+
+					.title {
+						text-align: left;
+					}
+				}
+
+				img {
+					order: -1;
+				}
+			}
+		}
+
+		&:not(:last-child) {
+			.about__item {
+				min-height: 270px;
+			}
+		}
+	}
 }
