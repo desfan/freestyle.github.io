@@ -1,3 +1,8 @@
+@font-face{
+	font-family: 'Exo 2';
+	src: url('../fonts/Exo2-Regular.ttf');
+}	
+
 /* Eric Meyer's CSS Reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -48,10 +53,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 	display: block;
 }
 body {
-	font: 12px/18px Arial, sans-serif;
+	font-family: 'Exo 2';
 }
 .wrapper {
-	min-width: 1000px;
+	min-width: 1280px;
 	max-width: 1280px;
 	margin: 0 auto;
 }
@@ -60,18 +65,36 @@ body {
 /* Header
 -----------------------------------------------------------------------------*/
 .header {
-	height: 150px;
-	background: #FFE680;
+	background: url(../img/bg-first.jpg) no-repeat center top;
+	width: 1280px;
+	height: 100vh;
+
 }
 
-
-/* Middle
------------------------------------------------------------------------------*/
-.content {
+.header-container {
+	display: flex;
+	justify-content: space-between;
 }
 
+.header-container a {
+	color: #502d01;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding-top: 50px;
+}
 
+.logo {
+	margin-left: 60px;
+}
 
+li {
+	list-style: none;
+	display: flex;
+}
+
+a {
+	text-decoration: none;
+}
 
 /* Footer
 -----------------------------------------------------------------------------*/
