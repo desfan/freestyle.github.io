@@ -1,0 +1,130 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+}
+.wrapper {
+	/* min-width: 320px;
+	max-width: 1280px; */
+	margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+header {
+	background: #000;
+	color: #707578;
+	height: 100%;
+	line-height: 4em;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1280px;
+}
+
+
+
+.col-md-7, .col-md-2, .col-md-1 {
+	border-bottom: 2px solid #1b1b1b;
+}
+
+p {
+	color: #707578;
+	font-weight: bold;
+}
+
+.wrap {
+	text-transform: uppercase;
+	
+	height: 55px;
+}
+
+.name {
+	text-transform: uppercase;
+	font-size: 24px;
+	color: #fff;
+}
+
+.max {
+	font-size: 18px;
+	font-weight: bold;
+	color: #026f02;
+}
+
+.slash {
+	font-size: 18px;
+	font-weight: bold;
+	color: #707578;
+}
+
+.min {
+	font-size: 18px;
+	font-weight: bold;
+	color: #fd0000;
+}
+
+.price {
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #fd0000;
+	padding: 9px 13px;
+}
+
+sup {
+	font-size: 18px;
+}
+
+.vol {
+	font-size: 14px;
+	font-weight: bold;
+}
