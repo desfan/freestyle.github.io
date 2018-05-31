@@ -111,7 +111,7 @@ header h3 {
 
 
 
-@media screen and (max-width: 420px) {
+/*@media screen and (max-width: 420px) {
 	
 	header {
 		height: 100vh;
@@ -169,9 +169,6 @@ header h3 {
 		content: attr(data-close);
 	}
 
-/*	.logo {
-		margin-left: -65px;
-	}*/
 
 	.header-container a {
 		margin-right: -65px;
@@ -182,7 +179,7 @@ header h3 {
 		top: 5px;
 		right: 25px;
 	}
-}
+}*/
 
 /* Footer
 -----------------------------------------------------------------------------*/
