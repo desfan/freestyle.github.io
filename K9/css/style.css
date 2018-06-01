@@ -1,4 +1,4 @@
-/*Спецификация*/
+/*----- Спецификация -----*/
 
 * {
 	margin: 0;
@@ -21,7 +21,7 @@ h1, h2 {
 
 }
 
-/*Первый экран*/
+/*----- Первый экран -----*/
 
 header {
 	background: url(../img/bg-first.jpg) no-repeat center top;
@@ -29,21 +29,22 @@ header {
 	height: 700px;
 }
 
+h1 {
+	background: #ff9700;
+	display: inline;
+	font-size: 36px;
+	color: #fff;
+	font-weight: normal;
+	line-height: 65px;
+	padding: 0 23px 7px 13px;
+	text-shadow: 2px 2px 4px rgba(26, 24, 24, .4);
+}
+
 .logo {
 	margin-top: 45px;
 	margin-bottom: 70px;
 	-webkit-filter: drop-shadow(0 0 10px #fff);
 	filter: drop-shadow(0 0 10px #fff);
-	
-}
-
-.logo img {
-	text-shadow: 2px 2px 4px rgba(255, 255, 255, .9);
-}
-
-
-.menu {
-
 }
 
 .menu__item {
@@ -62,17 +63,6 @@ header {
 	background-color: #ff9700;
 	color: #fff;
 	text-decoration: none;
-}
-
-h1 {
-	background: #ff9700;
-	display: inline;
-	font-size: 36px;
-	color: #fff;
-	font-weight: normal;
-	line-height: 65px;
-	padding: 0 23px 7px 13px;
-	text-shadow: 2px 2px 4px rgba(26, 24, 24, .4);
 }
 
 .offer__intro {
