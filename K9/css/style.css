@@ -1,0 +1,114 @@
+/*Спецификация*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Exo 2', sans-serif;
+}
+
+ul, li {
+	display: block;
+
+}
+
+h1, h2 {
+	font-weight: 500;
+	color: #fff;
+	text-shadow: 2px 2px 4px rgba(26, 24, 24, .7);
+
+}
+
+/*Первый экран*/
+
+header {
+	background: url(../img/bg-first.jpg) no-repeat center top;
+	background-size: 100%;
+	height: 700px;
+}
+
+.logo {
+	margin-top: 45px;
+	margin-bottom: 70px;
+	-webkit-filter: drop-shadow(0 0 10px #fff);
+	filter: drop-shadow(0 0 10px #fff);
+	
+}
+
+.logo img {
+	text-shadow: 2px 2px 4px rgba(255, 255, 255, .9);
+}
+
+
+.menu {
+
+}
+
+.menu__item {
+	margin-top: 45px;
+}
+
+.menu__item a {
+	font-size: 15px;
+	font-weight: normal;
+	color: #502d01;
+	text-transform: uppercase;
+	padding: 50px 7px 10px 7px;
+}
+
+.menu__item a:hover {
+	background-color: #ff9700;
+	color: #fff;
+	text-decoration: none;
+}
+
+h1 {
+	background: #ff9700;
+	display: inline;
+	font-size: 36px;
+	color: #fff;
+	font-weight: normal;
+	line-height: 65px;
+	padding: 0 23px 7px 13px;
+	text-shadow: 2px 2px 4px rgba(26, 24, 24, .4);
+}
+
+.offer__intro {
+	font-size: 16px;
+	font-weight: 500;
+	color: #fff;
+	text-shadow: 2px 2px 3px rgba(20, 20, 20, .9);
+	margin: 10px 0 90px 13px;
+}
+
+.icons__social a {
+	font-size: 24px;
+	color: #ff9700;
+	padding: 7px 7px;
+	display: flex;
+	justify-content: center;
+}
+
+.icons {
+	margin-top: -67px;
+}
+
+.icons__social a:hover {
+	text-decoration: none;
+}
+
+.button {
+	font-size: 17px;
+	color: #fff;
+	background: #ff9700;
+	padding: 16px 58px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+
+.button:hover {
+	text-decoration: none;
+	color: #fff;
+}
