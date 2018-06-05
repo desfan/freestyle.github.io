@@ -1,0 +1,108 @@
+/* 1601 - 1920 px */
+@media screen and (max-width: 1920px) {
+    .logo {
+        margin-top: 45px;
+        margin-bottom: 160px;
+    }
+
+    .offer {
+        margin-bottom: 180px;
+    }
+
+    .right-offer__title {
+        font-size: 55px;
+        line-height: 94px;
+        margin-top: 50px;
+    }
+
+    .right-offer {
+        margin-top: 80px;
+    }
+}
+
+/* 1369 - 1600 px */
+@media screen and (max-width: 1600px) {
+    .logo {
+        margin-top: 45px;
+        margin-bottom: 150px;
+    }
+
+    .offer {
+        margin-bottom: 135px;
+    }
+
+}
+
+/* 961 - 1368 px */
+@media screen and (max-width: 1368px) {
+    .menu__item a {
+        font-size: 13px;
+    }
+
+    .logo {
+        margin-top: 45px;
+        margin-bottom: 50%;
+    }
+
+    .offer {
+        margin-bottom: 15%;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 55px;
+    }
+    
+}
+
+/* 769 - 960 px */
+@media screen and (max-width: 960px) {
+
+    .logo {
+        margin-top: 45px;
+        margin-bottom: 30%;
+    }
+
+    .offer {
+        margin-bottom: 7%;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 48px;
+    }
+
+    .button {
+        font-size: 14px;
+    }
+    
+}
+
+/* 481 - 768 px */
+@media screen and (max-width: 768px) {
+    .logo {
+        margin-top: 25px;
+        margin-bottom: 5%;
+        width: 150px;
+    }
+
+    nav, .slick-prev:before, .slick-next:before {
+        display: none;
+    }
+
+    h1 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+     {
+
+    }
+
+    
+}
+
+/* 320 - 480 px */
+@media screen and (max-width: 480px) {
+    
+}
