@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Exo+2:400,600,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700" rel="stylesheet">
     <!-- Add the slick-theme.css if you want default styling -->
 	<link rel="stylesheet" type="text/css" href="slick/slick.css">
 	<!-- Add the slick-theme.css if you want default styling -->
@@ -20,81 +20,89 @@
 
   <body>
 	
-	<header>
-		<div class="header" id="header">
-			<div class="container">
+<header class="header" id="header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2">
+				<a href="#" class="logo">
+					<img src="img/logo.png" alt="K9" class="logo">
+				</a>
+			</div>
+			<div class="col-md-10">
+				<nav class="main-menu">
+					<ul class="menu d-flex justify-content-end">
+						<li class="menu__item">
+							<a href="#">Главная</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">О нас</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">Школа К9</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">Догхостел</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
 				
-				<div class="row">
-					<div class="col-lg-2 col-md-3 col-sm-2">
-						<a href="#">
-							<img src="img/logo.png" alt="K9" class="logo">
-						</a>
-						
+		<div class="row">
+			<div class="col-md-12">
+				<div class="offer">
+					<div>
+						<h1 class="offer__title">Ваше с питомцем </h1>
 					</div>
-					<div class="col-lg-5 col-md-7 ml-auto">
-						<nav>
-							<ul class="menu d-flex justify-content-end">
-								<li class="menu__item">
-									<a href="#">Главная</a>
-								</li>
-								<li class="menu__item">
-									<a href="#">О нас</a>
-								</li>
-								<li class="menu__item">
-									<a href="#">Школа К9</a>
-								</li>
-								<li class="menu__item">
-									<a href="#">Догхостел</a>
-								</li>
-								<li class="menu__item">
-									<a href="#">Контакты</a>
-								</li>
-							</ul>
-						</nav>
+					<div>
+						<h1 class="offer__title">взаимопонимание - </h1>
 					</div>
+					<div>
+						<h1 class="offer__title">наш личный успех! </h1>
+					</div>
+					
+					
+					
+					<!-- <div class="offer__intro">
+						Мы - семья кинологов, <br>основателей школы <strong>“К9 Днепр”</strong> <br>и гостиницы для собак <strong>“Догхостел Дача”</strong>		
+					</div> -->
 				</div>
-				
-				<div class="row">
-					<div class="col-lg-6 col-md-6 col-sm-6">
-						<div class="offer">
-							<h1 class="offer__title">Ваше с питомцем <br></h1>
-							<h1 class="offer__title">взаимопонимание - <br></h1>
-							<h1 class="offer__title">наш личный успех!</h1>
-							<!-- <div class="offer__intro">
-								Мы - семья кинологов, <br>основателей школы <strong>“К9 Днепр”</strong> <br>и гостиницы для собак <strong>“Догхостел Дача”</strong>		
-							</div> -->
-						</div>
-					</div>
-				</div>
+			</div>
+		</div>
 
-				<div class="row">
-					<div class="col-lg-4 col-md-6">
-						<a href="#" class="button">
-							Поехали!  <i class="fa fa-chevron-down"></i>
-						</a>						
-					</div>
-					<div class="col-lg-1 col-md-1 ml-auto">
-						<ul class="icons">
-							<li class="icons__social">
-								<a href="#">
-									<i class="fab fa-facebook-f"></i>
-								</a>
-								<a href="#">
-									<i class="fab fa-instagram"></i>
-								</a>
-								<a href="#">
-									<i class="fab fa-youtube"></i>
-								</a>
-							</li>
-						</ul>
-					</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="main_btn">
+					<a href="#" class="button">
+						Поехали!  <i class="fa fa-chevron-down"></i>
+					</a>
 				</div>
 
 			</div>
+			<div class="col-md-6 d-flex justify-content-end">
+				<ul class="icons">
+					<li class="icons__social">
+						<a href="#">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+						<a href="#">
+							<i class="fab fa-instagram"></i>
+						</a>
+						<a href="#">
+							<i class="fab fa-youtube"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			
 		</div>
-	</header>
+	</div>
+</header>
 
-	<section class="kennel_service" id="kennel_service">
+	<!-- <section class="kennel_service" id="kennel_service">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -164,7 +172,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
     
 
