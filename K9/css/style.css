@@ -86,6 +86,7 @@ h1, h2 {
 	color: #ff9700;
 	padding: 10px 7px;
 	display: flex;
+	margin-top: -2px;
 	justify-content: center;
 }
 
@@ -116,6 +117,14 @@ h1, h2 {
 }
 
 /*-----Секция знакомство-----*/
+
+#slides {
+	padding: 80px 0;
+}
+
+.carousel-caption__title {
+	background: rgba(20, 20, 20, .7);
+}
 
 .title__offer {
 	font-size: 24px;
