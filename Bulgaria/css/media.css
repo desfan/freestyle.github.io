@@ -148,7 +148,7 @@
     }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
 
     .query__arrow_bottom i {
         top: 95%;
