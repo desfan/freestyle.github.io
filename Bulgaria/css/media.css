@@ -67,6 +67,10 @@
         letter-spacing: 0.1rem;
     }
 
+    .section__title h2 {
+        font-size: 1.8rem;
+    }
+
     .offer__title {
         font-size: 2.063rem;
         letter-spacing: 0.1rem;
@@ -90,6 +94,10 @@
 
     .estate__dream-icons i {
         left: 43%;
+    }
+
+    #testimonials {
+        display: none;
     }
 
     .main-slider {
@@ -133,6 +141,10 @@
 
     .rights {
         float: right;
+    }
+
+    .consultation__form {
+        width: 98%;
     }
 
 }
