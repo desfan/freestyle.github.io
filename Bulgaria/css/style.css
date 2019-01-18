@@ -493,13 +493,13 @@ li {
     z-index: 1;
 }
 
-.slick-list {
-    position: relative;
-    display: block;
-    overflow: unset;
-    margin: 0;
-    padding: 0;
-}
+/*.slick-list {*/
+    /*position: relative;*/
+    /*display: block;*/
+    /*overflow: unset;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
 
 .slide-avatar {
     position: absolute;
