@@ -131,6 +131,10 @@
     .estate__dream-icons img:nth-child(3) {
         left: 47.5%;
     }
+    
+    .consultation__form {
+        width: 98%;
+    }
 }
 
 @media screen and (max-width: 480px) {
